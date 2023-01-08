@@ -76,9 +76,7 @@ background-attachment: fixed;
     margin-bottom: 30px;
 }
 
-.social-icons {
-    color: white;
-}
+
 
 .main-btn {
     background-color:#3a6cf4;
@@ -88,12 +86,21 @@ background-attachment: fixed;
     color: white;
     display: inline-block;
     padding: 0.9375em 2.1875em; 
-    border-radius: 20px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    transition: 0.7s ease;
 }
 
 .main-btn:hover {
-    padding: 1.9375em 3.1875em;
+    background-color: #601cfc;
+    transform: scale(1.1);
+    
 }
 
+.social-icons a {
+    color: white;
+    font-size: 1.7em;
+    padding-right: 30px;
+}
 
 
